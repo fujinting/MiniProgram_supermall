@@ -1,0 +1,15 @@
+/* pages/home/home.wxss */
+.popular image{
+  width: 100%;
+}
+
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.goods > .item{
+  width: 48%;
+  position: relative;
+  margin-top: 16rpx;
+}
